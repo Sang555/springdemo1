@@ -1,4 +1,4 @@
-FROM java:8.7.0-alpine
+FROM openjdk:8-jdk-alpine
 
 RUN mkdir -p /usr/app/server
 WORKDIR /usr/app/server
