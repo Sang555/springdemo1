@@ -13,6 +13,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
+        bat 'mvn clean install'
         app = docker.build("sanvs/spring-demo:tag")
         
     }
