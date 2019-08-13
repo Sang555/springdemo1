@@ -4,7 +4,7 @@ RUN mkdir -p /usr/app/server
 WORKDIR /usr/app/server
 
 
-COPY ./target/dockerdemo-0.0.1-SNAPSHOT.jar /usr/app/server
+COPY target/dockerdemo-0.0.1-SNAPSHOT.jar /usr/app/server
 
 WORKDIR /usr/app
 EXPOSE 8080
